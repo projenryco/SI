@@ -1,0 +1,27 @@
+
+#aviso {
+    background: linear-gradient(to right, #db414e, #e48706); /* Gradiente de fundo */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px; /* Espaçamento interno */
+    position: fixed; /* Fixa o aviso na parte superior da página */
+    width: 100%; /* Largura total da página */
+    top: 0; /* Alinha o aviso com o topo da página */
+    z-index: 1000; /* Garante que o aviso apareça acima de outros elementos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+#fecharAviso {
+    background-color: #000000; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    cursor: pointer; /* Muda o cursor para um ponteiro ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+#fecharAviso:hover {
+    background-color: #d32f2f; /* Muda a cor de fundo do botão ao passar o mouse */
+}
